@@ -1,72 +1,44 @@
 <!doctype html>
-<html lang="zh-Hant">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>隱私權政策 — 等車 DanChia</title>
-<style>
-  body{max-width:760px;margin:0 auto;padding:24px 16px 64px;font:16px/1.7 -apple-system,"Noto Sans TC","Microsoft JhengHei",sans-serif;color:#1d1d1f;background:#fff}
-  h1{font-size:28px;margin:0 0 4px}h2{font-size:20px;margin-top:36px;border-bottom:1px solid #e5e5e5;padding-bottom:6px}h3{font-size:17px;margin-top:24px}
-  table{border-collapse:collapse;width:100%;margin:12px 0}th,td{border:1px solid #ddd;padding:8px 10px;text-align:left;vertical-align:top}th{background:#f5f5f7}
-  .meta{color:#6e6e73;font-size:14px}a{color:#0a7bc2}code{background:#f5f5f7;padding:1px 5px;border-radius:4px}
-  nav a{margin-right:16px}
-</style>
-</head>
-<body>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>隱私權政策 — 等車 DanChia</title>
+<style>body{max-width:760px;margin:auto;padding:24px 16px 64px;font:16px/1.75 system-ui,"Noto Sans TC",sans-serif;color:#171717;background:#fff}h1{font-size:28px}h2{font-size:21px;margin-top:32px}h3{font-size:18px}a{color:#0369a1}nav{display:flex;flex-wrap:wrap;gap:12px}.meta{font-size:14px;color:#555}table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;padding:10px;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f6f8fa}li{margin:8px 0}</style></head><body>
 <nav><a href="./">首頁</a><a href="privacy.html">隱私權政策</a><a href="terms.html">服務條款</a><a href="account-deletion.html">刪除帳號</a></nav>
-<h1>隱私權政策</h1>
-<p class="meta">適用對象:Google Play 上架的 Android 應用程式「等車 DanChia」(套件名稱 <code>danchia.app</code>)<br>最後更新:2026-10-17</p>
-
-<p>這份政策只講一件事:App 拿了你的哪些資料、拿去做什麼、放在哪裡、怎麼刪。沒有寫在這裡的,我們就沒有做。</p>
-
-<h2>一、我們蒐集的資料</h2>
-<table>
-<tr><th>資料</th><th>什麼時候拿</th><th>拿去做什麼</th><th>必要嗎</th></tr>
-<tr><td>登入帳號的電子郵件；使用 Google 登入時提供的名稱</td><td>你用 Google 或電子郵件／密碼登入時</td><td>建立與識別你的帳號</td><td>使用「即時到站、關注、到站鬧鈴」時必要；只搜尋路線不需要登入</td></tr>
-<tr><td>會員資料:暱稱、性別、出生年;電話與頭像為選填</td><td>第一次登入時填寫</td><td>顯示在 App 內、統計使用族群</td><td>暱稱／性別／出生年必要;電話、頭像選填</td></tr>
-<tr><td>關注的路線與站牌</td><td>你按下「加入關注」時</td><td>在你的裝置之間同步清單</td><td>選填</td></tr>
-<tr><td>會員體驗到期日</td><td>你看完獎勵廣告開通時</td><td>判斷到站鬧鈴是否可用</td><td>使用鬧鈴時必要</td></tr>
-<tr><td>概略位置(縣市等級)</td><td>你允許位置權限時</td><td><strong>只在手機上</strong>判斷你在哪個縣市,預先選好搜尋範圍</td><td>選填;拒絕後改用你上次選的縣市</td></tr>
-<tr><td>精確位置(鬧鈴用)</td><td>你設定並使用到站鬧鈴時</td><td><strong>只在手機上</strong>確認你離路線不超過 3 公里,並在你進到下車站 1 公里內時提醒</td><td>選填;拒絕後仍可依到站時間提醒</td></tr>
-<tr><td>裝置廣告 ID(Advertising ID)</td><td>載入獎勵廣告時,由 Google AdMob 收集</td><td>顯示廣告、衡量成效、防止詐欺</td><td>觀看獎勵廣告時由 AdMob 收集</td></tr>
-</table>
-<p>App <strong>不會</strong>讀取通訊錄、相簿、簡訊或麥克風。</p>
-
-<h2>二、位置資訊</h2>
-<p>App 使用位置有兩個用途:用概略位置判斷你在哪一個縣市,好預先選好搜尋範圍;以及在你設定到站鬧鈴時,用精確位置確認你離這條路線不超過 3 公里,並在監看中判斷你是否進到下車站 1 公里內。</p>
-<p>位置只在你的手機上計算,不會傳送到我們的伺服器或第三方,也不會記錄你的經緯度或行動軌跡。App 只暫時保留算出的距離與量測時間。拒絕位置授權時,搜尋仍可手動選縣市,鬧鈴仍可依到站時間提醒。</p>
-
-<h2>三、到站鬧鈴與背景執行</h2>
-<p>當你設定到站鬧鈴時,App 會啟動一個前景服務,以遞減的間隔(最長 5 分鐘一次、最短 45 秒一次)向我們的伺服器查詢該路線的即時到站資料,即使螢幕關閉也一樣。全程會顯示一則常駐通知說明正在監看哪一條路線,你可以隨時從通知或 App 內停止。鬧鈴最長監看 3 小時後自動結束。</p>
-<p>這個查詢<strong>只包含路線與站牌資訊,不包含你的位置</strong>。</p>
-
-<h2>四、廣告</h2>
-<p>App 使用 <strong>Google AdMob</strong> 顯示廣告。App 內<strong>沒有橫幅廣告</strong>;唯一的廣告是你<strong>主動選擇觀看</strong>、用來開通會員體驗的獎勵廣告。AdMob 會收集你裝置的廣告 ID,用於顯示廣告與衡量成效;這個資料會分享給 Google。</p>
-<p>你可以在 Android 的「設定 → Google → 廣告」中重設或刪除廣告 ID。刪除之後,你主動觀看的獎勵廣告仍然可以正常運作,只是不再依你的興趣個人化。Google 如何使用這些資料,請見 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Google 的廣告政策</a>。</p>
-<p>App 不會在鬧鈴響鈴畫面顯示廣告。</p>
-
-<h2>五、通知</h2>
-<p>App 會請求通知權限,只用於到站鬧鈴的常駐通知與響鈴提醒,<strong>不會</strong>用來推送行銷訊息。</p>
-
-<h2>六、資料放在哪裡、誰會看到</h2>
+<h1>隱私權政策</h1><p class="meta">等車 DanChia Android App（danchia.app）｜最後更新：2026-10-25</p>
+<p>本頁說明 App 與其查詢、同步及廣告服務如何處理資料。行程規劃、收藏地點、離線保存與廣播等新版功能，僅在你的安裝版本提供且你使用該功能時適用；更新本頁不會自動開啟你尚未使用的功能。</p>
+<h2>一、帳號與主動儲存的資料</h2>
+<table><tr><th>資料</th><th>用途與是否必要</th></tr>
+<tr><td>電子郵件、帳號識別碼，以及 Google 登入提供的名稱等帳號資料</td><td>由 Firebase Authentication 建立及識別帳號。搜尋路線不必登入；即時資訊、同步與會員功能依畫面要求登入。</td></tr>
+<tr><td>暱稱、性別、出生年、電話與頭像</td><td>你建立或編輯會員資料時儲存。儲存表單要求暱稱、性別與出生年；電話及頭像選填。</td></tr>
+<tr><td>行程、收藏／關注路線與站牌、固定／自訂地點與分類</td><td>你主動儲存後，在本人帳號下同步。行程與地點可包含名稱、地址、座標、時間及規劃條件。</td></tr>
+<tr><td>會員到期日、廣播當日使用權與獎勵驗證紀錄</td><td>判斷對應功能可用期限、發獎及防止重複領取。廣播與會員獎勵分開處理。</td></tr></table>
+<p>你選取頭像時，App 只讀取你經系統選取器選擇的圖片，縮圖後儲存至本人資料；不掃描整本相簿，也不讀取通訊錄、簡訊或麥克風。</p>
+<h2>二、位置與查詢資料</h2>
+<p>只有你點選目前位置、附近站牌或需要位置的功能時，App 才會要求 Android 定位權限。你可以拒絕，改用手動搜尋或輸入地點；概略位置的精度較低。App 不建立或上傳連續移動軌跡。</p>
 <ul>
-<li>帳號、會員資料、關注清單與會員到期日存放在 <strong>Google Firebase</strong>(Authentication 與 Cloud Firestore)。</li>
-<li>公車路線、站牌與預估到站資訊來自<a href="https://tdx.transportdata.tw/">交通部 TDX 運輸資料流通服務平臺（官方資料來源）</a>；查詢時我們的伺服器只向該資料來源送出路線與站牌代碼，不送任何個人資料。本 App 由獨立開發者提供，不代表政府機關。</li>
-<li>獎勵廣告的發放由 Google 的伺服器通知我們的伺服器;我們會保留一組不含個人資料的交易編號,用來防止重複領取。</li>
-<li>我們<strong>不會</strong>把你的資料販售給任何人,也不會用於廣告以外的第三方行銷。</li>
+<li><strong>到站鬧鈴：</strong>距離計算在手機執行，用來確認距路線及目標站的距離。鬧鈴的路線資料查詢不包含裝置 GPS；未允許精確定位時，依該版本畫面提供的降級方式處理。</li>
+<li><strong>附近站牌：</strong>該次座標與縣市會透過 HTTPS 送到我們的查詢服務，在伺服器比對已同步的站牌庫，不是只在手機上計算。</li>
+<li><strong>行程規劃：</strong>起迄座標、出發／抵達時間及交通偏好會送到查詢服務，再轉送交通部 TDX 的路線規劃服務。以目前位置作起點時也一樣；這項查詢不會把你的 Firebase 登入憑證或電子郵件送給 TDX。</li>
+<li><strong>天氣：</strong>查詢服務接收所選站點座標，與中央氣象署的測站資料比對；取得測站資料時不會把各使用者查詢點逐一送給氣象署。</li>
+<li><strong>分享網址與外部地圖：</strong>你貼上 Google Maps 短網址後，查詢服務會追蹤 Google 轉址並在需要時向 Google 解析地點。成功解析的網址、座標與地址會快取 24 小時。你主動開啟 Google Maps 導航時，所選位置也會交給 Google 處理。</li>
+<li><strong>儲存位置：</strong>你主動儲存行程或地點後，其座標會保存在本人雲端資料，直到你移除資料或刪除帳號；不能將這類保存說成只有暫時運算。</li>
 </ul>
-
-<h2>七、資料保留與刪除</h2>
-<p>你可以在 App 內「設定 → 帳號與資料 → 刪除帳號」立即刪除帳號與全部資料;若已移除 App,可依<a href="account-deletion.html">帳號刪除說明</a>來信處理。刪除範圍、會保留的項目與原因都寫在那一頁。</p>
-<p>伺服器存取紀錄依主機商的預設保留期保存,用於資安與除錯。</p>
-
-<h2>八、兒童</h2>
-<p>本 App 的目標對象為 18 歲以上,不以兒童為對象,也不會有意識地蒐集 13 歲以下兒童的資料。</p>
-
-<h2>九、政策變更</h2>
-<p>政策有變更時會更新本頁的「最後更新」日期;涉及蒐集項目的重大變更,會同步更新 Google Play 的資料安全表。</p>
-
-<h2>十、聯絡我們</h2>
-<p>電子郵件:<a href="mailto:dvlpgdapp@gmail.com">dvlpgdapp@gmail.com</a></p>
-</body>
-</html>
+<p>App 不刻意把裝置 GPS、權杖或密碼寫入除錯日誌；網路服務仍可能產生必要的連線、資安及診斷紀錄。第三方依其服務政策處理接收的資料。</p>
+<h2>三、本機保存、背景與通知</h2>
+<p>偏好設定保存在本機 DataStore。開啟離線保存後，Room 會保存本人行程、收藏與地點的可查看副本；即時到站與尚未儲存的規劃結果不作離線資料。清除本機資料只清本機副本與偏好，不等於刪除雲端帳號資料。</p>
+<p>設定到站鬧鈴後，前景服務依既有節奏監看路線並顯示常駐通知，可從 App 或通知停止。通知也用於響鈴、即時更新／本機測試及廣播媒體控制，不作行銷推播。本機通知測試不代表伺服器推播已啟用。</p>
+<h2>四、獎勵廣告與廣播</h2>
+<p>App 沒有橫幅廣告；獎勵廣告由你主動選擇觀看，供會員體驗或獨立的廣播當日使用權。Google Mobile Ads SDK 會依 SDK 與裝置設定處理廣告／裝置識別碼、IP 位址、廣告互動及診斷資料，用於廣告、衡量及防詐欺；IP 可用來推估概略位置。伺服器使用帳號識別碼與一次性驗證資訊核對 Google 回呼後發放權益，不以手機畫面自行認定發獎。</p>
+<p>廣告供應、長度及獎勵確認可能受到供應商或網路影響。你可在 Android 系統廣告設定管理廣告 ID；我們不在鬧鈴響鈴畫面放廣告。</p>
+<p>播放廣播時會連接所選電台的 HTTPS 串流；該電台可能接收連線所需的 IP 等網路資訊。電台清單與自訂串流網址保存在本機偏好；串流服務的資料處理由電台依其政策提供。</p>
+<h2>五、服務提供者與資料來源</h2>
+<ul><li>帳號與同步資料使用 Google Firebase Authentication、Cloud Firestore；裝置驗證使用 Firebase App Check／正式版 Play Integrity。</li>
+<li>查詢與獎勵驗證服務運行於 Vercel；必要的快取／限流資料依服務設定處理。提供網路服務時，供應商可能處理連線與安全紀錄。</li>
+<li>交通資料與規劃使用<a href="https://tdx.transportdata.tw/">交通部 TDX（官方來源）</a>；天氣使用<a href="https://opendata.cwa.gov.tw/">中央氣象署開放資料（官方來源）</a>。本 App 為獨立服務，不代表任何政府機關。</li>
+<li>廣告使用 Google AdMob；外部地點解析／導航依使用者操作連接 Google。未設定地圖金鑰的版本不初始化內嵌 Maps 底圖；啟用該功能前會同步核對 SDK 揭露。</li></ul>
+<p>我們不販售你的資料。供應商資訊可參考<a href="https://firebase.google.com/support/privacy">Firebase 隱私與安全說明</a>、<a href="https://policies.google.com/privacy">Google 隱私權政策</a>、<a href="https://vercel.com/legal/privacy-policy">Vercel 隱私權政策</a>及電台各自說明。</p>
+<h2>六、匯出、刪除與保留</h2>
+<p>新版設定頁可匯出本人帳號、會員資料、分類、地點、行程、收藏／關注與權益資料。匯出不包含密碼、登入權杖或全域安全帳本。刪除方式與各項範圍見<a href="account-deletion.html">刪除帳號說明</a>。</p>
+<p><strong>刪帳後仍保留的防重放帳本：</strong>獎勵交易編號、帳號識別碼與處理時間目前不設自動刪除期限，用於避免同筆廣告交易重複發獎。它不是只含匿名交易編號的資料。臨時驗證／限流與主機存取紀錄可能在各自到期清理前保留；帳號刪除不代表所有技術紀錄立即消失。</p>
+<h2>七、對象、更新與聯絡</h2>
+<p>服務以台灣、18 歲以上使用者為對象。政策變更會更新日期；涉及資料處理的重大變更會同步更新 App 提示與必要的 Google Play 聲明。</p>
+<p>資料權利或帳號相關問題請聯絡：<a href="mailto:dvlpgdapp@gmail.com">dvlpgdapp@gmail.com</a>。</p>
+</body></html>
